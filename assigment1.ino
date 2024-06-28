@@ -9,7 +9,7 @@ DHT dht(DHTPIN, DHTTYPE);
 const char* ssid = "Current_SSID";
 const char* password = "Current_Password";
 const char* serverName = "http://Current_Server_IP:5000/data";
-const int led_hijau = 11;
+const int led_hijau = 13;
 WiFiClient client;
 HTTPClient http;
 
